@@ -16,3 +16,6 @@ A simple yet powerful Python-based hash cracker that supports dictionary attacks
 Make sure you have Python 3 installed.
 bash
 python3 --version
+
+Brute force attack demo
+<img width="1297" height="598" alt="Screenshot 2025-07-22 223658" src="https://github.com/user-attachments/assets/c35dd43f-799f-4cf3-82db-78bc65f53170" />
