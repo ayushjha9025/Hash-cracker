@@ -1,15 +1,48 @@
 
-# 🔐 Hash Cracker
-A simple yet powerful Python-based hash cracker that supports dictionary attacks for various hashing algorithms like MD5, SHA-1, SHA-256, and more.
 
-## 📌 Features
-- Supports common hashing algorithms:
-  - MD5
-  - SHA-1
-  - SHA-256
-- Dictionary attack using a custom or built-in wordlist
-- Command-line interface
-- Cross-platform (Windows/Linux/macOS)
+# 🔐 Hash Cracker
+
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+
+> A fast and flexible hash cracking tool using **Wordlist** or **Brute Force** methods. Supports multiple hash types and uses multithreading for performance.
+
+---
+
+## 🚀 Features
+
+- ✅ Wordlist (dictionary) attack
+- ✅ Brute-force attack with customizable character sets and lengths
+- ✅ Supports common hash algorithms (MD5, SHA1, SHA256, SHA3, etc.)
+- ✅ Multithreaded with `ThreadPoolExecutor` for speed
+- ✅ Progress bar using `tqdm`
+- ✅ Colorful terminal UI with `termcolor`
+
+---
+
+## 🧠 Supported Hash Types
+
+- `md5`
+- `sha1`
+- `sha224`
+- `sha256`
+- `sha384`
+- `sha512`
+- `sha3_224`
+- `sha3_256`
+- `sha3_384`
+- `sha3_512`
+
+---
+
+## 📦 Requirements
+
+Install the dependencies using:
+
+```bash
+pip install tqdm termcolor
+```
 
 ## 🚀 Getting Started
 ### Prerequisites
